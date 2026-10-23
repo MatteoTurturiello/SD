@@ -42,7 +42,7 @@ def get_p6(year: int):
             "roadAccidents": incidenti["roadAccidents"],
             "nInhabitants": popolazione["nInhabitants"],
             "multiplier": 10000,
-            "indicatorValue": round(indice, 2)
+            "indicatorIncidentality": round(indice, 2)
         }
 
     except (ValueError, RequestException) as e:
